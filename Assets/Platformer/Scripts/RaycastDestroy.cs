@@ -19,6 +19,11 @@ public class RaycastDestroy : MonoBehaviour
             
             if (Physics.Raycast(cursorRay, out RaycastHit hit))
             {
+                if (hit.collider.CompareTag("Brick") || hit.collider.CompareTag("Question"))
+                {
+                    GameManager gm = FindFirstObjectByType<GameManager>().GetComponent<GameManager>();
+                    gm.addCoin();
+                }
                 Destroy(hit.collider.gameObject);
             }
         }
