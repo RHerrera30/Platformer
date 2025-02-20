@@ -537,7 +537,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: -31.880676}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1128,7 +1128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 255106447}
-  coinText: {fileID: 0}
+  coinText: {fileID: 1347477170}
+  scoreText: {fileID: 600840589}
 --- !u!4 &1335274612
 Transform:
   m_ObjectHideFlags: 0
@@ -1156,7 +1157,7 @@ GameObject:
   - component: {fileID: 1347477171}
   - component: {fileID: 1347477170}
   m_Layer: 5
-  m_Name: Coins
+  m_Name: Coin Count
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
