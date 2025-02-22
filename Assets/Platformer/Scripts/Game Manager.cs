@@ -19,13 +19,18 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int timeLeft = 300 - (int)Time.time;
-        timerText.text = $"Time Left: {timeLeft}";
+        int timeLeft = 100 - (int)Time.time;
+        timerText.text = $"Time Left: \n{timeLeft}";
+        if (timeLeft <= 0)
+        {
+            timerText.color = Color.red;
+            timerText.text = "Game Over!";
+        }
     }
 
     public void addCoin()
     {
-        int coinPoints = 200;
+        int coinPoints = 100;
         coinCount++;
         if (coinCount < 10)
         {
