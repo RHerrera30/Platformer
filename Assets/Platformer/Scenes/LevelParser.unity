@@ -1020,7 +1020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e2cbbfc5f0fee42b7b1b9fd0a55fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acceleration: 50
+  acceleration: 14
   maxSpeed: 10
   jumpImpulse: 6
   jumpBoostForce: 6
