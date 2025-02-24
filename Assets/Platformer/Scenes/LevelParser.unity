@@ -944,11 +944,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 25209231875716530, guid: 85754112c5d81bd45a121ed5e2f1148a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.62
+      value: 1.82
       objectReference: {fileID: 0}
     - target: {fileID: 25209231875716530, guid: 85754112c5d81bd45a121ed5e2f1148a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.41
+      value: -0.015
       objectReference: {fileID: 0}
     - target: {fileID: 25209231875716530, guid: 85754112c5d81bd45a121ed5e2f1148a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -978,6 +978,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 563854666031321695, guid: 85754112c5d81bd45a121ed5e2f1148a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c0b4a86304ad95b43b14d0af4095ef55, type: 2}
     - target: {fileID: 563854666031321695, guid: 85754112c5d81bd45a121ed5e2f1148a, type: 3}
       propertyPath: m_AnimatePhysics
       value: 0
@@ -1016,10 +1020,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e2cbbfc5f0fee42b7b1b9fd0a55fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acceleration: 3
+  acceleration: 50
   maxSpeed: 10
-  jumpImpulse: 8
-  jumpBoostForce: 8
+  jumpImpulse: 6
+  jumpBoostForce: 6
   isGrounded: 0
 --- !u!1 &1307029100
 GameObject:
